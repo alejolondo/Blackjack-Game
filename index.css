@@ -1,0 +1,70 @@
+
+
+@font-face{
+    src: url(blackjack.regular.ttf);
+    font-family: royal;
+}
+
+@font-face{
+    src: url(royal-flush.regular.ttf);
+    font-family: card;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/table.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+h1{
+    font-family: royal;
+    font-size: 75px;
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-family: royal;
+    align-self: center;
+}
+
+@media  (max-width: 480px) {
+    body{
+        display:  flex;
+        flex-direction: column;
+        margin: 5px 10px;
+
+    }
+    button{
+        margin-bottom: 10px;
+        border-radius: 5px;
+        color:  #016f32;
+        
+        
+    }
+
+    h1{
+    font-family: royal;
+    font-size: 40px;
+}
+}
