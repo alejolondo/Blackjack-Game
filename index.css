@@ -53,6 +53,8 @@ button {
         display:  flex;
         flex-direction: column;
         margin: 5px 10px;
+        background-color: #016f32;
+        color: ;
 
     }
     button{
